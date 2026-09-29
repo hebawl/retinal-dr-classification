@@ -226,9 +226,7 @@ __pycache__/
 venv/
 .venv/
 
-# Dataset
-data/*
-!data/.gitkeep
+
 
 # Trained models
 models/*
