@@ -1,0 +1,19 @@
+{
+  "task": "two classes: grade 0 Normal; grades 1-4 DR",
+  "training_images": 329,
+  "validation_images": 83,
+  "test_images": 102,
+  "best_epoch": 6,
+  "test_results": {
+    "images": 102,
+    "accuracy": 0.7745098039215687,
+    "sensitivity": 0.7794117647058824,
+    "specificity": 0.7647058823529411,
+    "roc_auc": 0.8771626297577855,
+    "TN": 26,
+    "FP": 8,
+    "FN": 15,
+    "TP": 53
+  },
+  "note": "Small single-source research baseline; not clinical-ready."
+}

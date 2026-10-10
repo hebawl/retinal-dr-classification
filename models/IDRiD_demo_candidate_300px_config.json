@@ -1,0 +1,27 @@
+{
+  "model_name": "EfficientNet-B0",
+  "checkpoint": "IDRiD_demo_candidate_300px.pt",
+  "purpose": "Internal demonstration and research only; not for clinical diagnosis",
+  "task": "Binary diabetic-retinopathy screening classification",
+  "class_names": {
+    "0": "Normal (grade 0)",
+    "1": "Diabetic retinopathy (grades 1-4)"
+  },
+  "input_size": 300,
+  "image_preprocessing": {
+    "resize_short_edge": 332,
+    "center_crop": "300x300",
+    "normalization_mean": [0.485, 0.456, 0.406],
+    "normalization_std": [0.229, 0.224, 0.225]
+  },
+  "training": {
+    "initialization": "ImageNet pretrained EfficientNet-B0",
+    "class_weighted_loss": true,
+    "batch_size": 8,
+    "learning_rate": 0.0001,
+    "maximum_epochs": 8,
+    "selected_epoch": 7,
+    "checkpoint_rule": "Lowest validation loss"
+  },
+  "selection_note": "Chosen as the current internal demo candidate because 300px performed better on the four completed grouped validation folds. The fifth fold was stopped before evaluation; this is preliminary evidence, not a final model claim."
+}

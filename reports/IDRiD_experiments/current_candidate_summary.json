@@ -1,0 +1,50 @@
+{
+  "candidate": "IDRiD_demo_candidate_300px",
+  "status": "Internal demo candidate; not clinically validated",
+  "checkpoint_path": "models/IDRiD_demo_candidate_300px.pt",
+  "task": "Binary: grade 0 Normal vs grades 1-4 Diabetic Retinopathy",
+  "single_validation_split": {
+    "images": 83,
+    "accuracy": 0.927710843373494,
+    "sensitivity": 0.9285714285714286,
+    "specificity": 0.9259259259259259,
+    "roc_auc": 0.9808201058201058,
+    "TN": 25,
+    "FP": 2,
+    "FN": 4,
+    "TP": 52
+  },
+  "grouped_validation_comparison": {
+    "completed_folds": 4,
+    "planned_folds": 5,
+    "fold_5_status": "Stopped before 300px fold evaluation; excluded from comparison",
+    "224px_mean": {
+      "accuracy": 0.8877,
+      "sensitivity": 0.8742,
+      "specificity": 0.9156,
+      "roc_auc": 0.9633
+    },
+    "300px_mean": {
+      "accuracy": 0.9182,
+      "sensitivity": 0.9147,
+      "specificity": 0.9249,
+      "roc_auc": 0.9701
+    }
+  },
+  "test_set_note": "No test labels were used in this grouped validation comparison. The project's existing official test set has been evaluated in earlier work, so it is not an untouched independent final test set.",
+  "checkpoint_validation_verification": {
+    "images_checked": 83,
+    "training_performed": false,
+    "predicted_classes_match_saved_file": true,
+    "maximum_absolute_score_difference": 0.056003364674606315,
+    "roc_auc_recalculated_from_checkpoint": 0.9808201058201058,
+    "note": "Thresholded classes match. Scores differ by up to 5.6 percentage points, so AUC is reported from the packaged checkpoint. Scores are uncalibrated."
+  },
+  "limitations": [
+    "Only four of five planned grouped folds finished.",
+    "The validation sample is small and metric estimates are uncertain.",
+    "Performance may change on images from different clinics, cameras, or populations.",
+    "No external independent test set has been evaluated for this candidate.",
+    "This model is not approved or suitable for clinical decision-making."
+  ]
+}

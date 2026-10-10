@@ -1,0 +1,9 @@
+{
+  "selected_name": "IDRiD_demo_candidate_300px",
+  "selection_basis": "Higher mean metrics in four completed patient-grouped validation folds compared with 224px input",
+  "planned_folds": 5,
+  "completed_folds": 4,
+  "test_labels_used_in_this_comparison": false,
+  "test_is_independent": false,
+  "status": "Preliminary internal demonstration candidate; not clinically validated"
+}

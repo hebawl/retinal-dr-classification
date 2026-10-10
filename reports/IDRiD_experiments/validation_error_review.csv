@@ -1,0 +1,7 @@
+image_id,grade,true_label,predicted_label,dr_probability,error_type,relative_path
+IDRiD_070,4,1,0,0.182,missed DR,data\IDRiD\Original Images\a. Training Set\IDRiD_070.jpg
+IDRiD_105,1,1,0,0.206,missed DR,data\IDRiD\Original Images\a. Training Set\IDRiD_105.jpg
+IDRiD_130,2,1,0,0.414,missed DR,data\IDRiD\Original Images\a. Training Set\IDRiD_130.jpg
+IDRiD_248,2,1,0,0.144,missed DR,data\IDRiD\Original Images\a. Training Set\IDRiD_248.jpg
+IDRiD_259,0,0,1,0.859,false alarm,data\IDRiD\Original Images\a. Training Set\IDRiD_259.jpg
+IDRiD_395,0,0,1,0.658,false alarm,data\IDRiD\Original Images\a. Training Set\IDRiD_395.jpg

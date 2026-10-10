@@ -1,0 +1,3 @@
+image_id,split,grade,relative_path,sha256,reason
+IDRiD_118,train,0,data\IDRiD\Original Images\a. Training Set\IDRiD_118.jpg,505330878f4d4186a71b8001570100b82b6b05cb431e81e2c259d8c584314708,Exact copy crosses official train/test splits; labels conflict.
+IDRiD_064,test,3,data\IDRiD\Original Images\b. Testing Set\IDRiD_064.jpg,505330878f4d4186a71b8001570100b82b6b05cb431e81e2c259d8c584314708,Exact copy crosses official train/test splits; labels conflict.

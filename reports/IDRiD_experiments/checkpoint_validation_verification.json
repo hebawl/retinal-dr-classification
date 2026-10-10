@@ -1,0 +1,20 @@
+{
+  "checkpoint": "models\\IDRiD_demo_candidate_300px.pt",
+  "images_checked": 83,
+  "validation_only": true,
+  "training_performed": false,
+  "same_predicted_classes_as_saved_file": true,
+  "max_probability_difference": 0.056003364674606315,
+  "accuracy": 0.927710843373494,
+  "sensitivity": 0.9285714285714286,
+  "specificity": 0.9259259259259259,
+  "precision": 0.9629629629629629,
+  "roc_auc": 0.9808201058201058,
+  "confusion_counts": {
+    "TN": 25,
+    "FP": 2,
+    "FN": 4,
+    "TP": 52
+  },
+  "interpretation": "Thresholded classes match; probabilities differ slightly. Use metrics recalculated from this checkpoint."
+}
